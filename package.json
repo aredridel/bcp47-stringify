@@ -1,0 +1,27 @@
+{
+  "name": "bcp47-stringify",
+  "version": "1.0.0",
+  "description": "A stringify for BCP47 objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -t 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aredridel/bcp47-stringify.git"
+  },
+  "keywords": [
+    "bcp47"
+  ],
+  "author": "Aria Stewart <aredridel@dinhe.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aredridel/bcp47-stringify/issues"
+  },
+  "homepage": "https://github.com/aredridel/bcp47-stringify#readme",
+  "devDependencies": {
+    "bcp47": "^1.1.2",
+    "code": "^1.4.0",
+    "lab": "^5.9.0"
+  }
+}
