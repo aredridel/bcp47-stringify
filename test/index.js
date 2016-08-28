@@ -180,7 +180,7 @@ describe('bcp47', function () {
       it('extension', function (done) {
         var tag = bcp47.parse('aa-7-123abc-abc-a-12');
         expect(tag.langtag.language.language).to.be.equal('aa');
-        expect(tag.langtag.extension).to.only.deep.include(
+        expect(tag.langtag.extension).to.only.include(
           [
             {
               singleton: '7',
@@ -217,7 +217,7 @@ describe('bcp47', function () {
         expect(tag.langtag.script).to.be.equal('abcd');
         expect(tag.langtag.region).to.be.equal('123');
         expect(tag.langtag.variant).to.only.include(['abc123', '0abc']);
-        expect(tag.langtag.extension).to.only.deep.include([{
+        expect(tag.langtag.extension).to.only.include([{
           singleton: 'b',
           extension: ['01', 'abc123']
         }]);
