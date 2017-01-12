@@ -21,7 +21,7 @@
   "homepage": "https://github.com/aredridel/bcp47-stringify#readme",
   "devDependencies": {
     "bcp47": "^1.1.2",
-    "code": "^3.0.2",
+    "code": "^4.0.0",
     "lab": "^11.2.2"
   }
 }
